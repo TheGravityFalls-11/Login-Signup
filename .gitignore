@@ -1,0 +1,32 @@
+# Node modules
+**/node_modules/
+
+# dotenv files
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+pnpm-lock.yaml
+yarn.lock
+
+# Output of Vite
+frontend/dist
+
+# Others
+*.local
